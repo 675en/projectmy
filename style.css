@@ -3,10 +3,94 @@
     margin: 0;
     padding: 0;
 }
-bgrbsg
+/*----------Navigation-------*/
+#nav-bar
 {
-    background-color: #f0f0f0;
-    border: 1px solid #e0e0e0;
-    padding: 10px;
-    margin: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-right: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+   float: right;
+   text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #FF69B4 !important;
+    transform: scale(1.1);
+    
+}
+.navbar
+{
+    background-color: #A9D39E;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------Slider------*/
+#slider
+{
+   width: 100%;
+}
+.carousel-caption
+{
+    bottom: initial !important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h5
+{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+/*--------About Us--------*/
+#about
+{
+    background-color: #555;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#fff;
+}
+#about .btn 
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.about-content
+{
+    padding-top: 20px;
+    color: #fff;
+}
+.skills-bar p
+{
+   margin-bottom: 6px;
+   font-weight: 600;
+   color: #fff;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 45px;
 }
