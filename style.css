@@ -353,3 +353,126 @@ a
     text-decoration: none !important;
     color: #fff !important;
 }
+/*-----Testimonials----*/
+#testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .row
+{
+    margin-top: 80px;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile 
+{
+    padding: 70px 10px 10px;
+    background-color: #fff;
+    position: relative;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile img
+{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #FF69B4;
+}
+#testimonials span
+{
+    font-size:12px;
+    color: #FF69B4;
+}
+blockquote
+{
+    font-size: 16px;
+    color: #555;
+    line-height: 30px;
+}
+blockquote::before
+{
+    content: '\93';
+    font-size: 50px;
+    color: #FF69B4;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after
+{
+    content: '\94';
+    font-size: 50px;
+    color: #FF69B4;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover
+{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*-----Get in Touch----*/
+#contact
+{
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+.placeholder
+{
+    color: #FF69B4 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info
+{
+    margin: 10px;
+    color:#FF69B4;
+    font-weight: bold;
+}
+/*----footer---*/
+#footer
+{
+    background:#935e7ab3;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart
+{
+    color: #FF69B4;
+    margin: 3px;
+}
